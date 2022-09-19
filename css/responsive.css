@@ -23,5 +23,47 @@
         margin: 0 0.5rem;
 
     }
-
+  
 }
+@media (max-width:800px) {
+    .row{
+        flex: none;
+        display: block;
+        padding-right: 0;
+      }
+      .aboutme{
+        flex-basis: 100%;
+     } 
+     .about-img-box{
+         flex-basis: 100%;
+     }
+     .work{
+        display: block;
+        flex: none;
+    
+     }
+     .work-img-box{
+        flex-basis: 100%;
+     }
+     .work-info{
+        flex-basis: 100%;
+        margin-bottom: 2.5rem;
+     }
+     .cta-block{
+        display: block;
+        flex: none;
+     }
+     .btn-cta{
+        margin-bottom: 2rem;
+     }
+     section{
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+    }
+}
+
+/* @media(max-width:1600px){
+    .container{
+        width:100%
+    }
+} */
