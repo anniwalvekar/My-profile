@@ -109,9 +109,9 @@ color: var(--secondary-text);
        /* Hero Section */
 /* ************************* */
 .hero-section{
-    background-image:url(/images/background1.jpg);
-    width: 100%;
-    height: 100vh;
+    background-image:url(/images/cover5.png);
+    /* width: 100%; */
+    /* height: 100vh; */
     background-size: cover;
      filter: brightness(75%); 
      display: flex;
@@ -145,8 +145,8 @@ color: var(--secondary-text);
 .row{
     display: flex;
     justify-content: space-between;
-     padding-right: 80px;
-    
+     /* padding-right: 80px;
+     */
 }
 .aboutme{
    flex-basis: 50%;
