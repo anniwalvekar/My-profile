@@ -23,6 +23,7 @@
         margin: 0 0.5rem;
 
     }
+   
   
 }
 @media (max-width:800px) {
@@ -31,6 +32,15 @@
         display: block;
         padding-right: 0;
       }
+      .hero-content p{
+         color: var(--text-white);
+         font-size:1rem;
+         font-weight: 300;
+     }
+     .hero-content span{
+         font-weight: 800;
+         font-size: 1.7rem;
+     }
       .aboutme{
         flex-basis: 100%;
      } 
@@ -39,6 +49,11 @@
      }
      .description{
         font-size: 1rem;
+     }
+     .subtitle{
+      font-weight: 300;
+      letter-spacing: .5px;
+      font-size: 11px;
      }
      .work{
         display: block;
