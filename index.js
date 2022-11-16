@@ -1,10 +1,10 @@
-// const bar = document.querySelector(".fa-bars");
-// const list = document.querySelector(".nav-list");
+const bar = document.querySelector(".fa-bars");
+const list = document.querySelector(".nav-list");
 
 
-// bar.addEventListener("click",()=>{
-//    list.classList.toggle("show-menu");
-// });
+bar.addEventListener("click",()=>{
+   list.classList.toggle("show-menu");
+});
 
 // const devloperEl = document.querySelector(".devloper");
 // const careers = ["Web Devloper","Freelancer","JS devloper"];

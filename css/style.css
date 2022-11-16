@@ -109,9 +109,9 @@ color: var(--secondary-text);
        /* Hero Section */
 /* ************************* */
 .hero-section{
-    background-image:url(/images/cover5.png);
-    /* width: 100%; */
-    /* height: 100vh; */
+    background-image:url(/images/BG.png);
+    width: 100%;
+    height: 100vh;
     background-size: cover;
      filter: brightness(75%); 
      display: flex;
@@ -120,20 +120,24 @@ color: var(--secondary-text);
     line-height: 1.5;
 }
 .hero-content{
-    /* text-align: center; */
+    text-align: center;
 }
 .hero-content p{
-    color: var(--secondary-text);
+    color: var(--text-white);
     font-weight: 500;
 }
 .hero-content h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--text-white);
 }
+.hero-content span{
+    color: var(--secondary-text);
+}
 .hero-content h4{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: var(--text-white);
     font-weight: 400;
+    line-height: 1.2;
 }
 
 /* ************************* */
@@ -365,11 +369,11 @@ color: var(--secondary-text);
     
 }
 .cta-content{
-    flex-basis: 40%;
+    flex-basis: 60%;
 }
 
 .cta-details{
-    flex-basis: 50%;
+    flex-basis: 80%;
 }
 .cta-content p{
     margin-bottom: 1rem;
