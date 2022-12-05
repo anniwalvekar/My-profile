@@ -117,19 +117,40 @@
     .container{
         width: 100%;
         margin: 0 auto;
-        padding-left: 2rem;
-        padding-right:2rem;
+        padding-left: 1rem;
+        padding-right:1rem;
+    }
+    .hero-content span{
+        font-weight: 700;
+        font-size: 1.2rem;
     }
     .skill-block{
         height: 400px;
         display: grid;
-        grid-template-columns:repeat(auto-fit, minmax(150px,1fr)) ;
+        grid-template-columns:repeat(auto-fit, minmax(145px,1fr)) ;
         grid-gap:5px;
         margin-top: 3rem;
+        
+    }
+    .skill{
+        width:150px ;
         
     }
     .skill-block i{
         font-size: 2rem;
     }
 }
-
+@media (max-width:350px){
+    .container{
+        padding-left: .8rem;
+        padding-right:.8rem;
+    }
+    .skill-block{
+        height: 400px;
+        display: grid;
+        grid-template-columns:repeat(auto-fit, minmax(100px,1fr)) ;
+        grid-gap:5px;
+        margin-top: 3rem;
+        
+    }
+}
